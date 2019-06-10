@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Localización de paquetes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="map"></div>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Rastrea tu paquete</ion-card-subtitle>
+      <ion-card-title>Verifica e ingresa el numero de guia para poder rastrear tu paquete</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Servicios Basados en la Localización de envío y recepción de Paquetes a través de Internet.</p>
+      <ion-grid>
+          <ion-row justify-content-center>
+            <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+              <div padding>
+                <ion-item>
+                  <ion-input name="search" type="text" placeholder="Numero de guia" ngModel required></ion-input>
+                </ion-item>
+              </div>
+              
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button routerLink="/login" color="danger">
+        <ion-icon name="contact"></ion-icon>
+        Iniciar Sesión
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    <ion-img src="/assets/header_logo.png"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>SPEXI</ion-card-subtitle>
+      <ion-card-title>Sistema de Paqueteria Express por Internet</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Servicios Basados en la Localización de envío y recepción de Paquetes a través de Internet. </p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-label>Servicios</ion-label>
+    </ion-list-header>
+    <ion-item routerLink="#">
+      <ion-icon slot="start" color="medium" name="logo-dropbox"></ion-icon>
+      <ion-label>Paqueteria y envios</ion-label>
+    </ion-item>
+    <ion-item href="#">
+      <ion-icon slot="start" color="medium" name="locate"></ion-icon>
+      <ion-label>Localización de paquetes</ion-label>
+    </ion-item>
+    <ion-item href="#">
+      <ion-icon slot="start" color="medium" name="logo-usd"></ion-icon>
+      <ion-label>Cotización de envíos</ion-label>
+    </ion-item>
+    <ion-item href="#">
+      <ion-icon slot="start" color="medium" name="list-box"></ion-icon>
+      <ion-label>Asignar envío</ion-label>
+    </ion-item>
+    <ion-item href="#">
+      <ion-icon slot="start" color="medium" name="basket"></ion-icon>
+      <ion-label>Asignar recolección</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
